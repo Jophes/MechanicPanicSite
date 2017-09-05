@@ -26,4 +26,4 @@ h1 { margin: 0; padding: 0; font-family: 'lumberboy'; padding: 64px 0; text-alig
 p { width: 70%; position: absolute; top: calc(50%); left: calc(15%); font-family: 'Exo 2', sans-serif; text-align: center; font-size: 2em; color: #fff; background: rgba(0,0,0,0.5); border-radius: 5px; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; margin: 0; padding: 0; }
 body { background-image: url('/resources/images/capA.png'); background-position: center; background-size: cover; background-repeat: no-repeat; }
 
-#title { top: calc(2%); left: calc(23%); position: absolute; width: 30vw; }
+#title { top: calc(2%); left: calc(35%); position: absolute; width: 30vw; }
