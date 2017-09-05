@@ -1,13 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Exo+2:100,400');
+@font-face {
+    font-family: lumberboy;
+    src: url('/resources/fonts/lumberboy.ttf');
+}
 
 html, body, h1, h2, p, div { margin: 0; padding: 0; font-family: 'Exo 2', sans-serif; font-weight: 100; }
 
 html { background-color: #FFF; }
-body { max-width: 1400px; margin: 0 auto; background-color: #FCFCFC; }
+body { max-width: 1400px; margin: 0 auto; }
 
-header { border: 1px solid #CCC; border-top: 0; }
-header > h1 { font-size: 64px; font-weight: 400; text-align: center; }
+header { background-color: #777; }
+header > h1 { font-size: 86px; font-weight: 400; padding: 32px 0; text-align: center; font-family: 'lumberboy'; color: #FFF; text-shadow: 4px 3px rgba(0,0,0,0.75); }
 
-body > div { height: 400px; background-color: #FFF; border-left: 1px solid #EEE; border-right: 1px solid #EEE; }
+body > hr { width: 100%; border: 0; border-top: 1px solid #CCC; padding: 0; margin: 0; }
+body > div { height: 500px;  background-position: center; }
 
-footer { height: 60px; border: 1px solid #CCC; border-bottom: 0;  }
+.capA { background-image: url('/resources/images/capA.png'); }
+.capB { background-image: url('/resources/images/capB.png'); }
+.capC { background-image: url('/resources/images/capC.png'); }
+
+footer { background-color: #777; height: 80px; }
