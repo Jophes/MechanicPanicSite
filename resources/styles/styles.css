@@ -23,7 +23,7 @@ footer { background-color: #777; height: 80px; }*/
 
 html, body { height: 100%; padding: 0; margin: 0; }
 h1 { margin: 0; padding: 0; font-family: 'lumberboy'; padding: 64px 0; text-align: center; font-size: 96px; color: rgba(255,255,255,0.99); text-shadow: 4px 3px rgba(0,0,0,0.5); }
-p { width: 70%; position: absolute; top: calc(50%); left: calc(15%); font-family: 'Exo 2', sans-serif; text-align: center; font-size: 2em; color: #fff; background: rgba(0,0,0,0.5); border-radius: 5px; padding: 6px;text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; margin: 0; padding: 0; }
+p { width: 70%; position: absolute; top: calc(50%); left: calc(15%); font-family: 'Exo 2', sans-serif; text-align: center; font-size: 2em; color: #fff; background: rgba(0,0,0,0.5); border-radius: 5px; padding: 6px;text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; margin: 0; }
 body { background-image: url('/resources/images/capA.png'); background-position: center; background-size: cover; background-repeat: no-repeat; }
 
 #title { top: calc(2%); left: calc(35%); position: absolute; width: 30vw; }
