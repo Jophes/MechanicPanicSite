@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Exo+2:100,400');
-@font-face {
-    font-family: lumberboy;
-    src: url('/resources/fonts/lumberboy.ttf');
-}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+@font-face { font-family: lumberboy; src: url('/resources/fonts/lumberboy.ttf'); }
 
 html, body { height: 100%; padding: 0; margin: 0; }
-h1, h2, h3, h4, p, div { font-family: 'Exo 2', sans-serif; }
+h1, h2, h3, h4, p, li, div, ul { font-family: 'Open Sans', sans-serif; color: #000; margin: 0; padding: 0; }
 
-header { position: relative; height: 100vh; background-image: url('../images/capA.png'); background-position: center; background-size: cover; background-repeat: no-repeat; }
-header > img { top: 2%; left: 35%; position: absolute; width: 30vw; }
-header > p { width: 70%; position: absolute; top: 50%; left: 15%; text-align: center; font-size: 2em; color: #fff; margin: 0; padding: 6px; background-color: rgba(0,0,0,0.5); border-radius: 5px; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+.page-head { position: relative; height: 100vh; background-color: #F5F5F5; }
+.page-head > div { top: 5%; left: 5%; position: absolute; width: 90%; height: 70%; background-image: url('../images/MP-Logo.png'); background-size: contain; background-repeat: no-repeat; background-position: center; }
+header > p { width: 90%; position: absolute; top: 80%; left: 5%; text-align: center; font-weight: 100; font-size: 1.2em; margin: 0; padding: 6px; }
 
-.info-tab { height: 400px; text-align: center; }
-.info-tab.conveyors { background-color: aqua; }
-.info-tab.artstyle { background-color: coral; } 
+.tabs { list-style-type: none; padding: 32px; background-image: url('../images/grey.png'); }
+.tabs > li { padding: 8px; box-shadow: #ccc 0px 1px 1px 0px; border: 1px solid #ccc; margin-bottom: 32px; background-color: #fff; }
+
+.info-tab { height: 100px; text-align: center; }
+.info-tab.conveyors { }
+.info-tab.artstyle { } 
+
+/*background-image: url('../images/capA.png'); background-position: center; background-size: cover; background-repeat: no-repeat;*/
