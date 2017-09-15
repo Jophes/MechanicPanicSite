@@ -9,7 +9,18 @@ h1, h2, h3, h4, p, li, div, ul { font-family: 'Open Sans', sans-serif; color: #0
 .page-head > div { top: 5%; left: 5%; position: absolute; width: 90%; height: 70%; background-image: url('../images/MP-Logo.png'); background-size: contain; background-repeat: no-repeat; background-position: center; }
 header > p { width: 90%; position: absolute; top: 80%; left: 5%; text-align: center; font-size: 1.2em; margin: 0; padding: 6px; }
 
-.tabs { list-style-type: none; padding: 24px; background-image: url('../images/grey.png'); overflow: auto; }
+.container-tabs-viewer { width: 100%; overflow: hidden; background-image: url('../images/grey.png'); }
+.container-tabs { margin-left: 0; width: 200%; }
+.container-tabs > ul { float: left;  width: calc(50% - 48px); }
+
+.container-nav { width: 100%; height: 48px; background-color: #F5F5F5; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; box-shadow: #ccc 0px 1px 1px 0px; }
+nav { position: relative; width: 320px; height: 100%; margin: 0 auto; }
+nav > button { height: 100%; width: 160px; font-size: 1.4em; font-family: 'Open Sans', sans-serif; font-weight: 300; background: none; outline: 0; border: none; cursor: pointer; padding: 8px 24px; margin: 0; float: left; }
+nav > button:hover { font-size: 1.45em; }
+nav > button:active { font-size: 1.35em; }
+nav > span { position: absolute; display: block; width: 64px; height: 3px; background-color: #ccc; border-radius: 8px; top: 42px; left: 48px; }
+
+.tabs { list-style-type: none; padding: 24px; overflow: auto; }
 .tabs > li { margin: 8px; float: left; box-shadow: #ccc 0px 1px 1px 0px; border: 1px solid #ccc; border-radius: 3px; background-color: #fff; min-width: 400px; }
 
 .info_tab > h1 { padding: 4px 8px; text-align: left; border-bottom: 1px solid #eee; font-size: 2em; }
@@ -20,15 +31,16 @@ header > p { width: 90%; position: absolute; top: 80%; left: 5%; text-align: cen
 
 .info_tab > .m_row { width: 100%; padding: 0; border-bottom: 1px solid #eee; }
 .info_tab > .m_row:last-child { border: none; }
-.info_tab > .m_row > .cell { float: left; padding: 8px; border-right: 1px solid #eee; }
-.info_tab > .m_row > .cell:last-child { border-right: none; }
+.info_tab > .m_row > .cell { float: left; padding: 8px; border-left: 1px solid #eee; }
+.info_tab > .m_row > .cell:first-child { border-left: none; }
 .info_tab > .m_row > .cell:after { clear: both; content: ""; display: table; }
 .info_tab > .m_row > .cell > * { width: 100%; height: 100%; }
 .info_tab > .m_row > .cell.tag { width: calc(20% - 17px); height: 100%; }
 .info_tab > .m_row > .cell.content { width: calc(80% - 16px); }
+.info_tab > .m_row > .cell.content > p > .spacer { display: inline-block; width: 32px; }
 
-.info_tab.about_game { width: calc(50% - 46px); }
-.info_tab.about_us { width: calc(50% - 46px); }
+.info_tab.about_game { width: calc(50% - 18px); }
+.info_tab.about_us { width: calc(50% - 18px); }
 
 .info_tab.conveyors { width: 900px; }
 .info_tab.artstyle { } 
