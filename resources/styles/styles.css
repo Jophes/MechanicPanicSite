@@ -37,6 +37,7 @@ nav > span { position: absolute; display: block; width: 64px; height: 3px; backg
 .info_tab > .m_row > .cell > * { width: 100%; height: 100%; }
 .info_tab > .m_row > .cell.tag { width: calc(20% - 17px); height: 100%; }
 .info_tab > .m_row > .cell.content { width: calc(80% - 16px); }
+.info_tab > .m_row > .cell.content > p { font-size: 1em; font-weight: 100; font-family: 'Open Sans', sans-serif; }
 .info_tab > .m_row > .cell.content > p > .spacer { display: inline-block; width: 32px; }
 
 .info_tab.about_game { width: calc(50% - 18px); }
@@ -44,3 +45,18 @@ nav > span { position: absolute; display: block; width: 64px; height: 3px; backg
 
 .info_tab.conveyors { width: 900px; }
 .info_tab.artstyle { } 
+
+@media only screen and (max-device-width: 480px) {
+    .page-head > p { font-size: 4em; }
+    nav { width: 784px; }
+    .container-nav { height: 96px; }
+    nav > button { width: 360px; font-size: 4em; }
+    nav > button:hover { font-size: 4.05em; }
+    nav > button:active { font-size: 3.95em; }
+    nav > span { width: 200px; height: 4px; top: 92px; left: 86px; }
+    .info_tab.about_game { width: calc(100% - 18px); }
+    .info_tab.about_us { width: calc(100% - 18px); }
+    .info_tab > h1 { font-size: 5em; }
+    .info_tab > .s_row > p { font-size: 2.5em; }
+    .info_tab > .m_row > .cell.content > p { font-size: 2.75em; }
+}
