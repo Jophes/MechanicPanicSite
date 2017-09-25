@@ -1,4 +1,4 @@
-var btns, tabContainer, spanIndicator, target = 0, current = 0, timerActive, timerId;
+/*var btns, tabContainer, spanIndicator, target = 0, current = 0, timerActive, timerId;
 
 function updateMargin() {
     current = current + (target - current) * 0.15;
@@ -32,4 +32,4 @@ function onLoad() {
     }
 }
 
-window.addEventListener('load', onLoad);
+window.addEventListener('load', onLoad);*/
